@@ -1,0 +1,12 @@
+<div class="card-container">
+    <div class="card" *ngIf="todo">
+      <h1>{{ todo.title }}</h1>
+      <p>{{ todo.description }}</p>
+      <p>Completed: {{ todo.completed ? 'Yes' : 'No' }}</p>
+  
+      <div *ngIf="!todo">
+        <p>No todo found.</p>
+      </div>
+      <button class="get-back-button" (click)="getBack()">Get Back</button>
+    </div>
+  </div>

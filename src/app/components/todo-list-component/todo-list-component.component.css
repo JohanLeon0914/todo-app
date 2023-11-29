@@ -1,0 +1,97 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+h1 {
+  color: #333; 
+  font-size: 24px; 
+  margin-bottom: 20px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+.filteredButton {
+  background-color: #007bff; /* Azul */
+  color: #ffffff; 
+}
+
+.filteredButton:hover {
+  background-color: #0056b3; 
+}
+
+.createButton {
+  background-color: #4caf50; 
+  color: white; 
+}
+
+.createButton:hover {
+  background-color: #45a049; /* Verde éxito más oscuro al pasar el ratón */
+}
+
+.edit-button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #2980b9;
+}
+
+.show-button {
+  background-color: #3498db;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.show-button:hover {
+  background-color: #2980b9;
+}
+
+.no-todos-message {
+  font-size: 18px;
+  color: #777;
+}
+
+.row-even {
+  background-color: #f2f2f2; 
+}
+
+.row-odd {
+  background-color: #e6e6e6; 
+}
+
+@media only screen and (max-width: 767px) {
+  td button {
+    margin-top: 8px; 
+  }
+}

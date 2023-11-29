@@ -1,0 +1,39 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* O ajusta la altura según tus necesidades */
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px; /* O ajusta el ancho según tus necesidades */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card h1 {
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .get-back-button {
+    margin-top: 15px;
+    background-color: #999; /* Gris más oscuro por defecto */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .get-back-button:hover {
+    background-color: #666; 
+  }
